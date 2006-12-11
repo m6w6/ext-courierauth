@@ -2,7 +2,7 @@ dnl $Id$
 dnl config.m4 for extension courierauth
 
 PHP_ARG_WITH(courierauth, for courierauth support,
-	[  --with-courierauth-config
+	[  --with-courierauth
                           Path to courierauthconfig script])
 PHP_ARG_WITH(courierauth-security-risk, whether to enable passwd security risk,
 	[  --with-courierauth-security-risk

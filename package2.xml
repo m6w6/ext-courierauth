@@ -13,7 +13,7 @@ http://pear.php.net/dtd/package-2.0.xsd">
   <email>mike@php.net</email>
   <active>yes</active>
  </lead>
- <date>2006-12-07</date>
+ <date>2006-12-11</date>
  <version>
   <release>0.1.0</release>
   <api>0.1.0</api>

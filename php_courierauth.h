@@ -15,7 +15,7 @@
 #ifndef PHP_COURIERAUTH_H
 #define PHP_COURIERAUTH_H
 
-#define PHP_COURIERAUTH_VERSION "0.1.0"
+#define PHP_COURIERAUTH_VERSION "0.2.0-dev"
 
 extern zend_module_entry courierauth_module_entry;
 #define phpext_courierauth_ptr &courierauth_module_entry

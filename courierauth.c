@@ -62,6 +62,7 @@ PHP_MINFO_FUNCTION(courierauth)
 {
 	php_info_print_table_start();
 	php_info_print_table_header(2, "courierauth support", "enabled");
+	php_info_print_table_row(2, "extension version", PHP_COURIERAUTH_VERSION);
 	php_info_print_table_row(2, "courierauth version", courierauth_h_rcsid);
 	php_info_print_table_end();
 }

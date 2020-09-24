@@ -20,18 +20,6 @@
 extern zend_module_entry courierauth_module_entry;
 #define phpext_courierauth_ptr &courierauth_module_entry
 
-#ifdef ZTS
-#include "TSRM.h"
-#endif
-
-PHP_MINFO_FUNCTION(courierauth);
-
-PHP_FUNCTION(courierauth_login);
-PHP_FUNCTION(courierauth_getuserinfo);
-PHP_FUNCTION(courierauth_enumerate);
-PHP_FUNCTION(courierauth_passwd);
-PHP_FUNCTION(courierauth_getoption);
-
 #endif	/* PHP_COURIERAUTH_H */
 
 
